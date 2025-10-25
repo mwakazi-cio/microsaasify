@@ -69,7 +69,7 @@ microsaasify/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/mwakazi-dev/microsaasify.git
+   git clone https://github.com/mwakazi-cio/microsaasify.git
    cd microsaasify
    ```
 
