@@ -69,8 +69,8 @@ microsaasify/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/mwakazi-cio/microsaasify-v1.git
-   cd microsaasify-v1
+   git clone https://github.com/mwakazi-dev/microsaasify.git
+   cd microsaasify
    ```
 
 2. **Install dependencies**
