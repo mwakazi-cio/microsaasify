@@ -7,6 +7,7 @@ MicroSaaSify is an innovative platform that converts Google Sheets into fully fu
 ## ✨ Features
 
 ### 🎯 Core Functionality
+
 - **Instant Setup** - Connect Google Sheets with one click
 - **Auto-Sync** - Real-time updates from your spreadsheets
 - **Custom Domains** - Use your own domain with SSL certificates
@@ -15,12 +16,14 @@ MicroSaaSify is an innovative platform that converts Google Sheets into fully fu
 - **Mobile Responsive** - Works perfectly on all devices
 
 ### 🎨 Modern Design
+
 - **Beautiful Landing Page** - Modern animations and responsive design
 - **Professional Dashboard** - Clean, intuitive interface
 - **Custom Branding** - Colors, logos, and fonts
 - **SEO Optimized** - Built for search engines
 
 ### 🔧 Technical Features
+
 - **Next.js 14** - Latest React framework
 - **TypeScript** - Type-safe development
 - **Supabase** - Database and authentication
@@ -54,7 +57,8 @@ microsaasify/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 - Supabase account
 - Google Cloud Console account
@@ -63,53 +67,60 @@ microsaasify/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/mwakazi-cio/microsaasify-platform.git
    cd microsaasify-platform
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp .env.example .env.local
    ```
-   
+
    Update `.env.local` with your credentials:
+
    ```env
    # Supabase
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-   
+
    # Google OAuth
    GOOGLE_CLIENT_ID=your_google_client_id
    GOOGLE_CLIENT_SECRET=your_google_client_secret
    GOOGLE_REDIRECT_URI=http://localhost:3000/api/google/oauth/callback
-   
+
    # Paystack (optional)
    NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=pk_test_xxx
    PAYSTACK_SECRET_KEY=sk_test_xxx
-   
+
    # Encryption
    ENCRYPTION_KEY=your_32_character_encryption_key_here
    ```
 
 4. **Set up Supabase**
+
    - Create a new Supabase project
    - Run the migration in `supabase/migrations/001_initial_schema.sql`
    - Update your environment variables
 
 5. **Set up Google Cloud Console**
+
    - Create a new project
    - Enable Google Sheets API and Google Drive API
    - Create OAuth 2.0 credentials
    - Add authorized redirect URIs
 
 6. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -120,6 +131,7 @@ microsaasify/
 ## 📋 Milestones
 
 ### ✅ Milestone 1: Project Setup and Google Sheets Integration
+
 - [x] Next.js 14 setup with TypeScript and Tailwind CSS
 - [x] Supabase integration with complete database schema
 - [x] Google OAuth 2.0 and Sheets API integration
@@ -130,6 +142,7 @@ microsaasify/
 - [x] Environment configuration and deployment ready
 
 ### 🔄 Milestone 2: App Generation Engine (Coming Soon)
+
 - [ ] Google Sheets data parsing and analysis
 - [ ] Dynamic app generation based on spreadsheet structure
 - [ ] Template system for different app types
@@ -138,6 +151,7 @@ microsaasify/
 - [ ] Payment integration with Paystack
 
 ### 🔮 Milestone 3: Advanced Features (Planned)
+
 - [ ] Analytics dashboard
 - [ ] API access for Pro users
 - [ ] White-label solutions
@@ -158,6 +172,7 @@ microsaasify/
 ## 📱 Pages & Features
 
 ### Landing Page
+
 - Modern hero section with animations
 - Feature showcase with interactive cards
 - Use case examples with revenue indicators
@@ -165,18 +180,21 @@ microsaasify/
 - Responsive footer
 
 ### Dashboard
+
 - User statistics and analytics
 - App management interface
 - Quick actions and shortcuts
 - Recent apps overview
 
 ### App Management
+
 - Create new apps from Google Sheets
 - Configure app settings and branding
 - Manage app users and permissions
 - View analytics and performance
 
 ### Authentication
+
 - Secure login and signup
 - Google OAuth integration
 - Protected routes and middleware
@@ -193,11 +211,13 @@ microsaasify/
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 1. Connect your GitHub repository to Vercel
 2. Add all environment variables
 3. Deploy automatically on push
 
 ### Manual Deployment
+
 1. Build the project: `npm run build`
 2. Deploy to your preferred hosting platform
 3. Configure environment variables
@@ -236,4 +256,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by [Johnson Mwakazi](https://github.com/mwakazi-cio)**
 
-*Turn your spreadsheet into a SaaS business today!* 🚀
+_Turn your spreadsheet into a SaaS business today!_ 🚀
